@@ -1,0 +1,20 @@
+{
+  "name": "einfuehrung-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx servor ./public --reload",
+    "compile": "babel src --out-dir public/lib",
+    "compile:watch": "babel src --out-dir public/lib --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Darius Seewald",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/preset-react": "^7.23.3",
+    "babel": "^6.23.0"
+  }
+}
